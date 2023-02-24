@@ -65,17 +65,34 @@
                     <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
                     <form class="form">
                     <div class="form-field">
-                        <label class="label-input">Ім'я</label>
-                            <input type="text" class="form-lable" name="username"/>
-                        <label class="label-input">Телефон</label>
+                        <label class="label-input">Ім'я
+                        <input type="text" class="form-lable" name="username"/>
+                        <svg class="label-icon" width="12px" height="12px">
+                            <use href="./images/symbol-defs.svg#icon-Vector-3"></use>
+                        </svg>
+                        </label>
+                        <label class="label-input">Телефон
                             <input type="tell" class="form-lable" name="tell"/>
-                        <label class="label-input">Пошта</label>
+                            <svg class="label-icon" width="12px" height="12px">
+                                <use href="./images/symbol-defs.svg#icon-Vector-1"></use>
+                            </svg>
+                            </label>
+                        <label class="label-input">Пошта
                             <input type="email" class="form-lable" name="email"/>
+                            <svg class="label-icon" width="12px" height="12px">
+                                <use href="./images/symbol-defs.svg#icon-Vector-2"></use>
+                            </svg>
+                        </label>
                         <label class="label-input">Коментар</label>
-                        <textarea name="coment" class="form-lable" rows="5" placeholder="Введіть текст"></textarea>
-                      </div>
-                      
-                        <button type="submit">Submit</button>
+                            <textarea name="coment" class="form-lable textarea" rows="60" placeholder="Введіть текст"></textarea>
+                            <label class="label-input input-row"> 
+                        <input type="checkbox" name="chec" value="Погоджуюся з розсилкою та приймаю Умови договору"/>
+                         Погоджуюся з розсилкою та приймаю<a href="">Умови договору</a> 
+                        </label>
+                    </label>
+                    </div>
+                     <button class="sub" type="submit">Відправити</button> 
+                        
                 </div>
             </div>
         </section>
@@ -393,12 +410,12 @@
                     
                 </ul>
             </li>
-            <li class="">
+            <li class="submit-footer">
                 <h3 class="text-footer">Підпишіться на розсилку</h3>
                 <form name="signup_form" autocomplete="on" novalidate>
                     <label >
-                      <input class="footer-label" type="email" name="email"
-                      placeholder="E-mail" />
+                      <input class ="footer-label" type="email" name="email"
+                      placeholder ="E-mail" />
                     </label>
                     <button class="submit" type="submit">Підписатися
                         <svg class="but-icon" width="24px" height="24px">
